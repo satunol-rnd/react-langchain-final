@@ -1,0 +1,28 @@
+# .gitignore
+# ignore the .env file
+
+# ignore .env file
+.env
+
+# ignore compiled files
+__pycache__/
+*.py[cod]
+*.swp
+
+# ignore temporary files
+*.DS_Store
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ignore virtual environment
+venv/
+env/
+.venv/
+env.bak/
+envs/
+envs.bak/
+
