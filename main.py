@@ -10,6 +10,7 @@ from langchain.prompts import PromptTemplate
 from langchain.schema import AgentAction, AgentFinish
 from langchain.tools import Tool
 from langchain.tools.render import render_text_description
+# from langchain_mistralai import ChatMistralAI
 
 from callbacks import AgentCallbackHandler
 
@@ -71,6 +72,11 @@ if __name__ == "__main__":
         model_kwargs={"stop": ["\nObservation", "Observation"]},
         callbacks=[AgentCallbackHandler()],
     )
+    # llm = ChatMistralAI(
+    #     temperature=0,
+    #     model_kwargs={"stop": ["\nObservation", "Observation"]},
+    #     callbacks=[AgentCallbackHandler()],
+    # )
     intermediate_steps = []
     agent = (
         {
