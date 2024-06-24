@@ -48,3 +48,7 @@
 ```
 
 <br><br>
+
+## About The Project
+
+The purpose of this project is to learn how the Agent works. In this project we will learn the magic behind the Agent. We will also learn how to use tools which can connect real world data and sensor into LLM.

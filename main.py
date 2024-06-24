@@ -86,7 +86,7 @@ if __name__ == "__main__":
     while not isinstance(agent_step, AgentFinish):
         agent_step: Union[AgentAction, AgentFinish] = agent.invoke(
             {
-                "input": "What is the length of the word: DOG",
+                "input": "What is the length of the word: SATUNOL",
                 "agent_scratchpad": intermediate_steps,
             }
         )
